@@ -5,6 +5,7 @@ import Money from '@/views/Money.vue'
 
 import Labels from '@/views/Labels.vue'
 import Statistics from '@/views/Statistics.vue'
+import NOT from '@/views/NOT.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -23,6 +24,10 @@ const routes = [
   {
     path: '/statistics',
     component: Statistics
+  },
+  {
+    path: '*',//这是代表了除了上面路径之外的所有的路径
+    component: NOT
   },
 ]
 

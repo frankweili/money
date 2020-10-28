@@ -1,7 +1,7 @@
 <template>
   <div >
    <router-view/>    <!--把内容添加到这里面 --> 
-   <hr>
+   
   </div>
 </template>
 
