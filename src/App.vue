@@ -1,10 +1,14 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div >
+   <router-view/>    <!--把内容添加到这里面 --> 
+   <hr><div>
+    <router-link to="/money">记账</router-link>
+    |
+    <router-link to="/labels">标签</router-link>
+    |
+   <router-link to="/statistics">统计</router-link>
+   <!--以上三个为跳转到相应的页面路径 --> 
+   </div>
   </div>
 </template>
 
