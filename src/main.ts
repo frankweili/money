@@ -4,7 +4,9 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import Nav from '@/components/Nav.vue'   //引入这个组件
-Vue.component('Nav',Nav) //全局引入这个组件
+import Layout from '@/components/Layout.vue'   //引入这个组件
+Vue.component('Nav', Nav) //全局引入这个组件
+Vue.component('Layout',Layout) //全局引入这个组件
 Vue.config.productionTip = false
 
 new Vue({
